@@ -1,4 +1,13 @@
 # Default ignored files
-/out/
 /shelf/
 /workspace.xml
+
+# IntelliJ
+.idea/
+
+# Compilación
+/out/
+*.class
+
+# Logs
+*.log
