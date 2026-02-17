@@ -11,7 +11,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConversorMoneda {
-     public double convertirMoneda(double valor, int conversor){
+     public String convertirMoneda(double valor, int conversor){
          double moneda=0;
          String buscar="";
          String aBuscar="USD";
@@ -42,6 +42,6 @@ public class ConversorMoneda {
          double calcular = 0;
          Moneda mon = new Gson().fromJson(response.body(), Moneda.class);
          calcular = (double) mon.conversion_rates().get(aBuscar);
-         return calcular*valor;
+         return "El valor "+valor+"["+buscar+"] corresponde al valor final de ===>>> "+calcular*valor+" ["+aBuscar+"]";
      }
 }
