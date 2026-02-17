@@ -18,15 +18,20 @@ https://github.com/MiguelSanchezG/ChallengeConversorDeMonedas
 ## Uso
 
 1. Ya con la el proyecto abierto, seleccionamos solo es buscar en las carpetas del proyecto, la clase de la carpeta principal 
+
 ![Carpeta Inicio](./imagenes/1.jpg)
 2. luego a la clase le damos click derecho y saldra el siguiente menu y seleccionaremos la opcion Run
+
 ![Clase principal](./imagenes/2.jpg)
 3. entonces, desde la IDE el programa mostrara las opciones que tiene a seleccionar
+
 ![programa](./imagenes/3.jpg)
 4. y al seleccionar una de las opciones simplemente debemos darle el valor que deseamos convertir, dándonos la respuesta acorde
+
 ![respuesta](./imagenes/4.jpg)
 ![cerrado](./imagenes/5.jpg)
 5. también si no damos un valor no acorde, el programa se puede cerrar, esto para controlar que no haya algún error.
+
 ![error datos](./imagenes/6.jpg)
 ![error seleccion](./imagenes/7.jpg)
 
